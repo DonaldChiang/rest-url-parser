@@ -16,7 +16,7 @@ var user = {
 
 var rest_url_parser = new RestUrlParser(rest_url);
 
-var url = rest_url.parse(user);
+var url = rest_url_parser.parse(user);
 
 console.log(url)
 // http://example.com/users/1?foo=bar
